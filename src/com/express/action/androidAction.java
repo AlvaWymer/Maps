@@ -16,7 +16,7 @@ import com.express.model.SendMsg_webchinese;
 import com.express.model.User;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
-
+//
 public class androidAction extends ActionSupport{
 	private androidActionRequest actionRequest = new androidActionRequest();
 	public String updateuser(){
