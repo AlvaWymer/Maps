@@ -1,0 +1,4 @@
+06/10/13 15:34:53 INFO  James.Mailet: RemoteDelivery: maxRetries is larger than total number of attempts specified. Increasing last delayTime with 19 attempts 
+06/10/13 15:34:53 INFO  James.Mailet: RemoteDelivery: Delay of 21600000 msecs is now attempted: 20 times
+06/10/13 15:36:01 INFO  James.Mailet: RemoteDelivery: Attempting delivery of Mail1381044931187-0-to-163.com to host 163mx02.mxmail.netease.com. at 220.181.14.150 for addresses [yangnaihua.2008@163.com]
+06/10/13 15:36:03 INFO  James.Mailet: RemoteDelivery: Mail (Mail1381044931187-0-to-163.com) sent successfully to 163mx02.mxmail.netease.com. at 220.181.14.150 for [yangnaihua.2008@163.com]

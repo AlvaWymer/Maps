@@ -1,0 +1,12 @@
+02/12/13 21:43:39 INFO  James.Mailet: RemoteDelivery: maxRetries is larger than total number of attempts specified. Increasing last delayTime with 19 attempts 
+02/12/13 21:43:39 INFO  James.Mailet: RemoteDelivery: Delay of 21600000 msecs is now attempted: 20 times
+02/12/13 21:44:31 INFO  James.Mailet: RemoteDelivery: Attempting delivery of Mail1385991861510-1-to-163.com to host 163mx01.mxmail.netease.com. at 220.181.14.137 for addresses [yangnaihua.2008@163.com]
+02/12/13 21:44:32 INFO  James.Mailet: RemoteDelivery: Mail (Mail1385991861510-1-to-163.com) sent successfully to 163mx01.mxmail.netease.com. at 220.181.14.137 for [yangnaihua.2008@163.com]
+02/12/13 21:44:39 INFO  James.Mailet: RemoteDelivery: Attempting delivery of Mail1385991854298-0-to-163.com to host 163mx01.mxmail.netease.com. at 220.181.14.137 for addresses [yangnaihua.2008@163.com]
+02/12/13 21:44:43 INFO  James.Mailet: RemoteDelivery: Mail (Mail1385991854298-0-to-163.com) sent successfully to 163mx01.mxmail.netease.com. at 220.181.14.137 for [yangnaihua.2008@163.com]
+02/12/13 21:45:46 INFO  James.Mailet: RemoteDelivery: Attempting delivery of Mail1385991933922-2-to-163.com to host 163mx02.mxmail.netease.com. at 220.181.14.148 for addresses [yangnaihua.2008@163.com]
+02/12/13 21:45:46 INFO  James.Mailet: RemoteDelivery: Mail (Mail1385991933922-2-to-163.com) sent successfully to 163mx02.mxmail.netease.com. at 220.181.14.148 for [yangnaihua.2008@163.com]
+02/12/13 21:52:18 INFO  James.Mailet: RemoteDelivery: Attempting delivery of Mail1385992313171-3-to-163.com to host 163mx03.mxmail.netease.com. at 220.181.14.162 for addresses [yangnaihua.2008@163.com]
+02/12/13 21:52:22 INFO  James.Mailet: RemoteDelivery: Mail (Mail1385992313171-3-to-163.com) sent successfully to 163mx03.mxmail.netease.com. at 220.181.14.162 for [yangnaihua.2008@163.com]
+02/12/13 21:56:12 INFO  James.Mailet: RemoteDelivery: Attempting delivery of Mail1385992559066-4-to-163.com to host 163mx01.mxmail.netease.com. at 220.181.14.138 for addresses [yangnaihua.2008@163.com]
+02/12/13 21:56:14 INFO  James.Mailet: RemoteDelivery: Mail (Mail1385992559066-4-to-163.com) sent successfully to 163mx01.mxmail.netease.com. at 220.181.14.138 for [yangnaihua.2008@163.com]

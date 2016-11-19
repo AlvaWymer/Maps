@@ -1,0 +1,8 @@
+06/10/13 09:24:07 INFO  pop3server: POP3 Service uses default thread group.
+06/10/13 09:24:07 INFO  pop3server: POP3 Service is running on: ICBC
+06/10/13 09:24:07 INFO  pop3server: POP3 Service handler hello name is: ICBC
+06/10/13 09:24:07 INFO  pop3server: POP3 Service handler connection timeout is: 120000
+06/10/13 09:24:07 INFO  pop3server: POP3 Service connection backlog is: 5
+06/10/13 09:24:07 INFO  pop3server: POP3 Service will allow a maximum of 30 connections.
+06/10/13 09:24:07 INFO  pop3server: The idle timeout will be reset every 20480 bytes.
+06/10/13 09:24:07 INFO  pop3server: POP3 Service started plain:110

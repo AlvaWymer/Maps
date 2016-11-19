@@ -1,0 +1,26 @@
+05/10/13 17:11:21 INFO  pop3server: POP3 Service uses default thread group.
+05/10/13 17:11:21 INFO  pop3server: POP3 Service is running on: ICBC
+05/10/13 17:11:21 INFO  pop3server: POP3 Service handler hello name is: ICBC
+05/10/13 17:11:21 INFO  pop3server: POP3 Service handler connection timeout is: 120000
+05/10/13 17:11:21 INFO  pop3server: POP3 Service connection backlog is: 5
+05/10/13 17:11:21 INFO  pop3server: POP3 Service will allow a maximum of 30 connections.
+05/10/13 17:11:21 INFO  pop3server: The idle timeout will be reset every 20480 bytes.
+05/10/13 17:11:21 INFO  pop3server: POP3 Service started plain:110
+05/10/13 18:18:19 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:18:19 INFO  pop3server: Connection for unknown from www.bandicam.com (127.0.0.1) closed.
+05/10/13 18:18:19 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:18:19 INFO  pop3server: Connection for unknown from www.bandicam.com (127.0.0.1) closed.
+05/10/13 18:18:42 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:18:42 INFO  pop3server: Connection for unknown from www.bandicam.com (127.0.0.1) closed.
+05/10/13 18:18:42 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:18:42 INFO  pop3server: Connection for unknown from www.bandicam.com (127.0.0.1) closed.
+05/10/13 18:18:46 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:18:46 INFO  pop3server: Connection for admin from www.bandicam.com (127.0.0.1) closed.
+05/10/13 18:18:48 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:18:48 INFO  pop3server: Connection for admin from www.bandicam.com (127.0.0.1) closed.
+05/10/13 18:19:47 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:19:47 INFO  pop3server: Connection for admin from www.bandicam.com (127.0.0.1) closed.
+05/10/13 18:50:09 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 18:50:09 INFO  pop3server: Connection for admin from www.bandicam.com (127.0.0.1) closed.
+05/10/13 19:20:14 INFO  pop3server: Connection from www.bandicam.com (127.0.0.1) 
+05/10/13 19:20:14 INFO  pop3server: Connection for admin from www.bandicam.com (127.0.0.1) closed.

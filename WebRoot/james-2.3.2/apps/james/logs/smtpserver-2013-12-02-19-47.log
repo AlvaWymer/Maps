@@ -1,0 +1,66 @@
+02/12/13 19:47:02 INFO  smtpserver: SMTP Service uses default thread group.
+02/12/13 19:47:02 INFO  smtpserver: SMTP Service is running on: ICBC
+02/12/13 19:47:02 INFO  smtpserver: SMTP Service handler hello name is: ICBC
+02/12/13 19:47:02 INFO  smtpserver: SMTP Service handler connection timeout is: 360000
+02/12/13 19:47:02 INFO  smtpserver: SMTP Service connection backlog is: 5
+02/12/13 19:47:02 INFO  smtpserver: SMTP Service will allow a maximum of 30 connections.
+02/12/13 19:47:02 INFO  smtpserver: This SMTP server does not require authentication.
+02/12/13 19:47:02 INFO  smtpserver: Authorized addresses: [127.0.0.0/255.0.0.0]
+02/12/13 19:47:02 INFO  smtpserver: No maximum message size is enforced for this server.
+02/12/13 19:47:02 INFO  smtpserver: The idle timeout will be reset every 20480 bytes.
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.VrfyCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.AuthCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.QuitCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.HelpCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.HeloCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.MailCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.DataCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.RcptCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.EhloCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added MessageHandler: org.apache.james.smtpserver.SendMailHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.NoopCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.ExpnCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.RsetCmdHandler
+02/12/13 19:47:02 INFO  smtpserver: SMTP Service started plain:25
+02/12/13 19:50:22 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 19:50:22 INFO  smtpserver: Successfully spooled mail Mail1385985022381-0 from admin@yangnaihua.cn on 127.0.0.1 for [yangnaihua.2008@163.com]
+02/12/13 19:50:43 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 19:50:43 INFO  smtpserver: Successfully spooled mail Mail1385985043793-1 from admin@yangnaihua.cn on 127.0.0.1 for [yangnaihua.2008@163.com]
+02/12/13 19:54:50 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 19:54:50 INFO  smtpserver: Successfully spooled mail Mail1385985290259-2 from admin@yangnaihua.cn on 127.0.0.1 for [yangnaihua.2008@163.com]
+02/12/13 19:59:08 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 19:59:08 INFO  smtpserver: Successfully spooled mail Mail1385985548277-3 from admin@yangnaihua.cn on 127.0.0.1 for [yangnaihua.2008@163.com]
+02/12/13 20:07:39 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:39 INFO  smtpserver: Successfully spooled mail Mail1385986059387-4 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:39 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:39 INFO  smtpserver: Successfully spooled mail Mail1385986059651-5 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:40 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:40 INFO  smtpserver: Successfully spooled mail Mail1385986060601-6 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:41 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:41 INFO  smtpserver: Successfully spooled mail Mail1385986061641-7 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:44 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:44 INFO  smtpserver: Successfully spooled mail Mail1385986064077-8 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:45 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:45 INFO  smtpserver: Successfully spooled mail Mail1385986065024-9 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:45 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:45 INFO  smtpserver: Successfully spooled mail Mail1385986065676-10 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:46 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:46 INFO  smtpserver: Successfully spooled mail Mail1385986066330-11 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:47 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:47 INFO  smtpserver: Successfully spooled mail Mail1385986067267-12 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:48 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:48 INFO  smtpserver: Successfully spooled mail Mail1385986068328-13 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:49 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:49 INFO  smtpserver: Successfully spooled mail Mail1385986069279-14 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:50 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:50 INFO  smtpserver: Successfully spooled mail Mail1385986070347-15 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:51 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:51 INFO  smtpserver: Successfully spooled mail Mail1385986071326-16 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:52 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:52 INFO  smtpserver: Successfully spooled mail Mail1385986072310-17 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:53 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:53 INFO  smtpserver: Successfully spooled mail Mail1385986073309-18 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:07:54 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:07:54 INFO  smtpserver: Successfully spooled mail Mail1385986074406-19 from admin@yangnaihua.cn on 127.0.0.1 for [1036975570@qq.com]
+02/12/13 20:08:23 INFO  smtpserver: Connection from www.bandicam.com (127.0.0.1)
+02/12/13 20:08:23 INFO  smtpserver: Successfully spooled mail Mail1385986103000-20 from admin@yangnaihua.cn on 127.0.0.1 for [779455856@qq.com]

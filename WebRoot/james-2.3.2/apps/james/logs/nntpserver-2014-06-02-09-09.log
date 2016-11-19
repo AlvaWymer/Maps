@@ -1,0 +1,7 @@
+02/06/14 09:09:42 INFO  nntpserver: NNTP Service uses default thread group.
+02/06/14 09:09:42 INFO  nntpserver: NNTP Service is running on: ICBC
+02/06/14 09:09:42 INFO  nntpserver: NNTP Service handler hello name is: ICBC
+02/06/14 09:09:42 INFO  nntpserver: NNTP Service handler connection timeout is: 120000
+02/06/14 09:09:42 INFO  nntpserver: NNTP Service connection backlog is: 5
+02/06/14 09:09:42 INFO  nntpserver: NNTP Service will allow a maximum of 30 connections.
+02/06/14 09:09:42 INFO  nntpserver: NNTP Service started plain:119

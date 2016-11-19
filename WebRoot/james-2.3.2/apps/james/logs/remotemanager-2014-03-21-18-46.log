@@ -1,0 +1,18 @@
+21/03/14 18:46:29 INFO  remotemanager: Remote Manager Service uses default thread group.
+21/03/14 18:46:29 INFO  remotemanager: Remote Manager Service is running on: ICBC
+21/03/14 18:46:29 INFO  remotemanager: Remote Manager Service handler hello name is: ICBC
+21/03/14 18:46:29 INFO  remotemanager: Remote Manager Service handler connection timeout is: 60000
+21/03/14 18:46:29 INFO  remotemanager: Remote Manager Service connection backlog is: 5
+21/03/14 18:46:29 INFO  remotemanager: Remote Manager Service will allow a maximum of 30 connections.
+21/03/14 18:46:29 INFO  remotemanager: Remote Manager Service started plain:4555
+21/03/14 18:54:54 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+21/03/14 18:55:08 INFO  remotemanager: Login for root successful
+21/03/14 18:55:10 INFO  remotemanager: Logout for root.
+21/03/14 18:57:12 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+21/03/14 18:57:20 INFO  remotemanager: Login for root successful
+21/03/14 18:58:20 ERROR remotemanager: Remote Manager Connection has idled out.
+21/03/14 18:58:20 INFO  remotemanager: Logout for root.
+21/03/14 20:55:51 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+21/03/14 20:55:57 INFO  remotemanager: Login for root successful
+21/03/14 20:56:57 ERROR remotemanager: Remote Manager Connection has idled out.
+21/03/14 20:56:57 INFO  remotemanager: Logout for root.

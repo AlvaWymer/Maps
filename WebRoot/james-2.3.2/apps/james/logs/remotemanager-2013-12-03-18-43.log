@@ -1,0 +1,7 @@
+03/12/13 18:43:09 INFO  remotemanager: Remote Manager Service uses default thread group.
+03/12/13 18:43:09 INFO  remotemanager: Remote Manager Service is running on: ICBC
+03/12/13 18:43:09 INFO  remotemanager: Remote Manager Service handler hello name is: ICBC
+03/12/13 18:43:09 INFO  remotemanager: Remote Manager Service handler connection timeout is: 60000
+03/12/13 18:43:09 INFO  remotemanager: Remote Manager Service connection backlog is: 5
+03/12/13 18:43:09 INFO  remotemanager: Remote Manager Service will allow a maximum of 30 connections.
+03/12/13 18:43:09 INFO  remotemanager: Remote Manager Service started plain:4555

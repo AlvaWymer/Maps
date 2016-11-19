@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>用户管理</title>
+<link rel="stylesheet" type="text/css" href="jquery-easyui-1.3.3/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="jquery-easyui-1.3.3/themes/icon.css">
+<script type="text/javascript" src="jquery-easyui-1.3.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery-easyui-1.3.3/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript">
+	var url;
+	function searchUser(){//查询用户事件
+		$('#dg').datagrid('load',{
+			s_userName:$("#s_userName").val(),//后台接收的数值   .val是取值
+			s_roleId:$('#s_roleId').combobox("getValue")
+		});
+	}
+	
+	
+
+	
+	//导出用户
+	function exportUser(){
+			window.open('orderexcelAction!excellist')
+		}
+		
+	//批量导入
+	function openUploadFileDialog(){
+			$("#dlg2").dialog('open').dialog('setTitle','批量导入数据');
+	}
+	
+/* 	function openUploadFileDialog(){
+			$("#dlg2").dialog('open').dialog('setTitle','批量导入数据');
+		} */
+		
+		
+		function downloadTemplate(){
+			window.open('template/orderExporTemplate.xls');
+		}
+		
+		//上传文件
+		function uploadFile(){
+			$("#uploadForm").form("submit",{
+				success:function(result){
+					var result=eval('('+result+')');
+					if(result.errorMsg){
+						$.messager.alert("系统提示",result.errorMsg);
+					}else{
+						$.messager.alert("系统提示","上传成功");
+						$("#dlg2").dialog("close");
+						$("#dg").datagrid("reload");
+					}
+				}
+			});
+		}
+	</script>
+</head>
+<body style="margin: 1px;">
+<table id="dg" title="订单管理" class="easyui-datagrid" fitColumns="true" 
+    pagination="true" rownumbers="true" url="userlistOrderAction" fit="true" toolbar="#tb">
+    <thead>
+    	<tr>
+    		<!-- <th field="cb" checkbox="true" align="center"></th> -->
+    		<th field="orderid" width="120" align="center" >订单号</th>
+    		<th field="id" width="150" align="center" hidden="true">订单编号</th>
+    		<th field="pubtime" width="140" align="center">生成订单时间</th>
+    		<th field="rname" width="100" align="center" >收件人姓名</th>
+    		<th field="raddress" width="200" align="center">收件人地址</th>
+    		<th field="rtel" width="150" align="center">收件人电话</th>
+    		<th field="rpostcode" width="110" align="center">收件人邮编</th>
+    		<th field="sname" width="110" align="center">寄件人姓名</th>
+    		<th field="saddress" width="200" align="center">寄件人地址</th>
+    		<th field="stel" width="150" align="center">寄件人电话</th>
+    		<th field="spostcode" width="120" align="center" >寄件人邮编</th>
+    		<th field="username" width="150" align="center" >操作人</th>
+    		<th field="weight" width="150" align="center">快件重量</th>
+    		<th field="cost" width="90" align="center">费用</th>
+    		<th field="status" width="150" align="center">快件状态</th>
+    	</tr>
+    </thead>
+</table>
+<div id="tb">
+	<div>
+		<!-- <a href="javascript:openUserAddDialog()" class="easyui-linkbutton" iconCls="icon-add" plain="true">添加</a>
+		<a href="javascript:openUserModifyDialog()" class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a>
+		<a href="javascript:deleteUser()" class="easyui-linkbutton" iconCls="icon-remove" plain="true">删除</a> -->
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-export" plain="true" onclick="exportUser()">导出订单数据</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-import" plain="true" onclick="openUploadFileDialog()">导入订单数据</a>
+	</div>
+	
+</div>
+
+<!-----  ------------->
+<div id="dlg-buttons">
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveUser()">保存</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">关闭</a>
+	</div>
+	
+	
+	<div id="dlg2" class="easyui-dialog" style="width:400px;height:180px;padding:10px 20px"
+            closed="true" buttons="#dlg-buttons2">
+        <form id="uploadForm" action="orderexcelAction!upload" method="post" enctype="multipart/form-data">
+        	<table>
+        		<tr>
+        			<td>下载模版：</td>
+        			<td><a href="javascript:void(0)" class="easyui-linkbutton"  onclick="downloadTemplate()" iconCls="icon-downexcel">下载导入模版</a></td>
+        		</tr>
+        		<tr>
+        			<td>上传文件：</td>
+        			<td><input type="file" name="orderUploadFile"></td>
+        		</tr>
+        	</table>
+        </form>
+	</div>
+    
+	<div id="dlg-buttons2">
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="uploadFile()">上传</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg2').dialog('close')">关闭</a>
+	</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

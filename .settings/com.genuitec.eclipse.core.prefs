@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/WBMSmain.jsp,WebRoot/james-2.3.2/apps/james/conf/james-listmanager.xml,WebRoot/jquery-easyui-1.3.3,WebRoot/main.jsp,WebRoot/james-2.3.2/apps/james/conf/samples/fetchmail
+validator.Unchecked=

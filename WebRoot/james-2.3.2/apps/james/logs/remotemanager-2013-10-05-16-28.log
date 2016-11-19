@@ -1,0 +1,29 @@
+05/10/13 16:28:44 INFO  remotemanager: Remote Manager Service uses default thread group.
+05/10/13 16:28:44 INFO  remotemanager: Remote Manager Service is running on: ICBC
+05/10/13 16:28:44 INFO  remotemanager: Remote Manager Service handler hello name is: ICBC
+05/10/13 16:28:44 INFO  remotemanager: Remote Manager Service handler connection timeout is: 60000
+05/10/13 16:28:44 INFO  remotemanager: Remote Manager Service connection backlog is: 5
+05/10/13 16:28:44 INFO  remotemanager: Remote Manager Service will allow a maximum of 30 connections.
+05/10/13 16:28:44 INFO  remotemanager: Remote Manager Service started plain:4555
+05/10/13 16:30:48 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+05/10/13 16:31:26 INFO  remotemanager: Login for root successful
+05/10/13 16:32:27 INFO  remotemanager: User yangnaihua added
+05/10/13 16:34:26 ERROR remotemanager: Remote Manager Connection has idled out.
+05/10/13 16:34:26 INFO  remotemanager: Logout for root.
+05/10/13 16:35:29 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+05/10/13 16:35:53 INFO  remotemanager: Login for root successful
+05/10/13 16:36:53 ERROR remotemanager: Remote Manager Connection has idled out.
+05/10/13 16:36:53 INFO  remotemanager: Logout for root.
+05/10/13 16:37:44 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+05/10/13 16:37:54 INFO  remotemanager: Login for root successful
+05/10/13 16:38:54 ERROR remotemanager: Remote Manager Connection has idled out.
+05/10/13 16:38:54 INFO  remotemanager: Logout for root.
+05/10/13 16:39:00 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+05/10/13 16:39:05 INFO  remotemanager: Login for root successful
+05/10/13 16:39:15 INFO  remotemanager: User admin added
+05/10/13 16:42:05 ERROR remotemanager: Remote Manager Connection has idled out.
+05/10/13 16:42:05 INFO  remotemanager: Logout for root.
+05/10/13 16:49:18 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+05/10/13 16:49:24 INFO  remotemanager: Login for root successful
+05/10/13 16:50:24 ERROR remotemanager: Remote Manager Connection has idled out.
+05/10/13 16:50:24 INFO  remotemanager: Logout for root.

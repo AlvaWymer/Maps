@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="Authority" namespace="/" extends="jfreechart-default">
+	
+<!-- 		<interceptors>  
+		   <interceptor name="login" class="com.express.interceptor.LoginInterceptor" />
+		   <interceptor-stack name="main-stack">
+		    	<interceptor-ref name="login"></interceptor-ref>
+		    	<interceptor-ref name="exception"></interceptor-ref>
+		    	<interceptor-ref name="params"></interceptor-ref>
+		   </interceptor-stack>
+		</interceptors> 
+		
+		<default-interceptor-ref name="main-stack"></default-interceptor-ref> -->
+		
+		
+		<global-results>
+			<result name="globalError">/WebsiteBackgroundManagementSystemIndex.jsp</result>
+		</global-results>
+	
+	
+	
+	
+	
+		<action name="adminlogin" class="com.express.action.LoginAction" >
+			<result name="error">/WebsiteBackgroundManagementSystemIndex.jsp</result>
+			<result name="success" type="redirect">/WBMSmain.jsp</result>
+		</action>
+		
+		<action name="androidLogin" class="com.express.action.androidLogin" method="loginuser">
+		</action>
+		<action name="androidUpdate" class="com.express.action.androidAction" method="updateuser">
+		</action>
+		<action name="androidUser" class="com.express.action.androidAction" method="userinfo">
+		</action>
+		<action name="androidCheck" class="com.express.action.androidAction" method="usercheck">
+		</action>
+		<action name="androidOrderQuery" class="com.express.action.androidOrderAction" method="query">
+		</action>
+		<action name="androidOrderAdd" class="com.express.action.androidOrderAction" method="add">
+		</action>
+		<action name="androidOrderQueryloc" class="com.express.action.androidOrderAction" method="queryloc">
+		</action>
+		<action name="androidOrderQueryname" class="com.express.action.androidOrderAction" method="queryName">
+		</action>
+		<action name="androidOrderAddloc" class="com.express.action.androidOrderAction" method="addloc">
+		</action>
+		<action name="androidOrderStatistics" class="com.express.action.androidOrderAction" method="statistics">
+		</action>
+		
+		<action name="loginout" class="com.express.action.LoginAction" method="loginout"><!-- 调用不同的方法 -->
+			<result name="success" type="redirect">/WebsiteBackgroundManagementSystemIndex.jsp</result>
+		</action>
+		
+		<action name="update" class="com.express.action.LoginAction" method="updatepassword"><!--  更改密码-->
+		
+		</action>
+		
+		<action name="AuthAction" class="com.express.action.AuthAction">
+		</action>
+		
+		
+		<action name="userexportAction" class="com.express.action.UserAction" >
+		</action>
+		
+		
+		<action name="userlistAction" class="com.express.action.UserAction" method="list">
+		</action>
+		
+		<action name="userlistOrderAction" class="com.express.action.OrderAction" method="list">
+		</action>
+		
+		<action name="rolelistAction" class="com.express.action.RoleAction" method="comBoList">
+		</action>
+		
+		<action name="adduserAction" class="com.express.action.UserAction" method="save"><!-- 保存添加的管理员 -->
+		</action>
+		
+		
+		<action name="listAction" class="com.express.action.RoleAction" method="roleList"><!-- 搜索管理者用户 -->
+		</action>
+		
+		<action name="deleteuserAction" class="com.express.action.UserAction" method="delete"><!-- 删除管理者用户 -->
+		</action>
+		
+		<action name="roleDeleteAction" class="com.express.action.RoleAction" method="roleDelete"><!-- 删除角色 -->
+		</action>
+		
+		<action name="roleSaveAction" class="com.express.action.RoleAction" method="roleSave"><!-- 添加角色 -->
+		</action>
+		
+		<action name="authMenuAction" class="com.express.action.AuthAction" method="authMenuAction"><!-- 角色授权 查询到树-->
+		</action>
+		
+		<action name="authSaveAction" class="com.express.action.RoleAction" method="auth"><!-- 角色授权保存 -->
+		</action>
+		
+		
+		<action name="authTreeGridMenuAction" class="com.express.action.AuthAction" method="authTreeGridMenuAction"><!-- 菜单管理-->
+		</action>
+		
+		
+		<action name="savemenuAction" class="com.express.action.AuthAction" method="savemenuAction"><!-- 菜单管理  保存-->
+		</action>
+		
+		<action name="deletemenuAction" class="com.express.action.AuthAction" method="deletemenuAction"><!-- 菜单管理  删除-->
+		</action>
+		
+		<action name="orderexcelAction" class="com.express.action.OrderAction" ><!--订单excel-->
+		</action>
+		
+		
+		
+		 <action name="roleChart" class="com.express.action.RoleStatisticsAction" >
+			<result type="chart">
+				<param name="width">900</param>
+				<param name="height">520</param>
+			</result>
+		</action> 
+		<action name="orderbarChart3Dt" class="com.express.action.OrderStatisticsAction">
+			<result type="chart">
+				<param name="width">900</param>
+				<param name="height">520</param>
+			</result>
+		</action>
+	</package>
+	
+	
+</struts>

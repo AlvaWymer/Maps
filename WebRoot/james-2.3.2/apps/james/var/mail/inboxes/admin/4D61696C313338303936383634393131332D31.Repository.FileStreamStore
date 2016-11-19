@@ -1,0 +1,143 @@
+Return-Path: <>
+Delivered-To: admin@yangnaihua.cn
+Date: Sat, 5 Oct 2013 18:24:09 +0800 (CST)
+From: postmaster@localhost
+To: admin@yangnaihua.cn
+Message-ID: <1529207541.2.1380968649087.JavaMail.Kitty@ICBC>
+In-Reply-To: <000a01cec1b4$f106c5b0$d3145110$@yangnaihua.cn>
+Subject: Re:hello
+MIME-Version: 1.0
+Content-Type: multipart/report; 
+	boundary="----=_Part_1_1956908177.1380968649073"; 
+	report-type=delivery-status
+
+------=_Part_1_1956908177.1380968649073
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi. This is the James mail server at ICBC.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.  Below
+I include the list of recipients and the reason why I was unable to deliver
+your message.
+
+Failed recipient(s):
+779455856@qq.com
+
+Error message:
+550 Mail content denied. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000726
+
+
+------=_Part_1_1956908177.1380968649073
+Content-Type: message/delivery-status; name=status.dat
+Content-Transfer-Encoding: 7bit
+Content-Description: Delivery Status Notification
+Content-Disposition: attachment; filename=status.dat
+
+Reporting-MTA: dns; ICBC
+Received-From-MTA: dns; www.bandicam.com
+
+Final-Recipient: rfc822; 779455856@qq.com
+Action: failed
+Status: 5.0.0
+Diagnostic-Code: smtp; 550 Mail content denied. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000726
+Last-Attempt-Date: Sat, 5 Oct 2013 18:23:32 +0800 (CST)
+
+------=_Part_1_1956908177.1380968649073
+Content-Type: message/rfc822; name=hello
+Content-Disposition: Attachment; filename=hello
+
+Received: from www.bandicam.com ([127.0.0.1])
+          by ICBC (JAMES SMTP Server 2.3.2) with SMTP ID 346
+          for <779455856@qq.com>;
+          Sat, 5 Oct 2013 18:23:32 +0800 (CST)
+From: "yangnaihua" <admin@yangnaihua.cn>
+To: <779455856@qq.com>
+Subject: hello
+Date: Sat, 5 Oct 2013 18:23:32 +0800
+Message-ID: <000a01cec1b4$f106c5b0$d3145110$@yangnaihua.cn>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_000B_01CEC1F7.FF2A2CC0"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: Ac7BtO+GRWy+teIJTM60x/LnTEwYUA==
+Content-Language: zh-cn
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_000B_01CEC1F7.FF2A2CC0
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: base64
+
+t7a1wsj4DQoNCg==
+
+------=_NextPart_000_000B_01CEC1F7.FF2A2CC0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dgb2312"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=CB=CE=CC=E5;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:=CB=CE=CC=E5;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@=CB=CE=CC=E5";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DZH-CN =
+link=3D"#0563C1" vlink=3D"#954F72" =
+style=3D'text-justify-trim:punctuation'><div class=3DWordSection1><p =
+class=3DMsoNormal><span =
+style=3D'font-family:=CB=CE=CC=E5'>=B7=B6=B5=C2=C8=F8</span><span =
+lang=3DEN-US><o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_000B_01CEC1F7.FF2A2CC0--
+
+
+------=_Part_1_1956908177.1380968649073--

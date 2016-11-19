@@ -1,0 +1,7 @@
+02/12/13 18:05:49 INFO  James: JAMES init...
+02/12/13 18:05:49 INFO  James: Local host is: ICBC
+02/12/13 18:05:49 INFO  James: Handling mail for: yangnaihua.cn
+02/12/13 18:05:49 WARN  James: The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+02/12/13 18:05:49 INFO  James: Local users repository opened
+02/12/13 18:05:49 INFO  James: Private Repository LocalInbox opened
+02/12/13 18:05:49 INFO  James: JAMES ...init end

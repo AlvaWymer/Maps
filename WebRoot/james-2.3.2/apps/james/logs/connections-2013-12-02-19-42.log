@@ -1,0 +1,6 @@
+02/12/13 19:46:18 ERROR connections: Error handling connection
+java.lang.NullPointerException
+	at org.apache.james.remotemanager.RemoteManagerHandler.handleConnection(RemoteManagerHandler.java:279)
+	at org.apache.james.util.connection.ServerConnection$ClientConnectionRunner.run(ServerConnection.java:432)
+	at org.apache.excalibur.thread.impl.ExecutableRunnable.execute(ExecutableRunnable.java:55)
+	at org.apache.excalibur.thread.impl.WorkerThread.run(WorkerThread.java:116)

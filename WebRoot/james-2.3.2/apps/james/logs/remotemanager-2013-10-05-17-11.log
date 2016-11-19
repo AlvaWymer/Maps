@@ -1,0 +1,23 @@
+05/10/13 17:11:05 INFO  remotemanager: Remote Manager Service uses default thread group.
+05/10/13 17:11:05 INFO  remotemanager: Remote Manager Service is running on: ICBC
+05/10/13 17:11:05 INFO  remotemanager: Remote Manager Service handler hello name is: ICBC
+05/10/13 17:11:05 INFO  remotemanager: Remote Manager Service handler connection timeout is: 60000
+05/10/13 17:11:05 INFO  remotemanager: Remote Manager Service connection backlog is: 5
+05/10/13 17:11:05 INFO  remotemanager: Remote Manager Service will allow a maximum of 30 connections.
+05/10/13 17:11:14 INFO  remotemanager: Remote Manager Service uses default thread group.
+05/10/13 17:11:14 INFO  remotemanager: Remote Manager Service is running on: ICBC
+05/10/13 17:11:14 INFO  remotemanager: Remote Manager Service handler hello name is: ICBC
+05/10/13 17:11:14 INFO  remotemanager: Remote Manager Service handler connection timeout is: 60000
+05/10/13 17:11:14 INFO  remotemanager: Remote Manager Service connection backlog is: 5
+05/10/13 17:11:14 INFO  remotemanager: Remote Manager Service will allow a maximum of 30 connections.
+05/10/13 17:11:21 INFO  remotemanager: Remote Manager Service uses default thread group.
+05/10/13 17:11:21 INFO  remotemanager: Remote Manager Service is running on: ICBC
+05/10/13 17:11:21 INFO  remotemanager: Remote Manager Service handler hello name is: ICBC
+05/10/13 17:11:21 INFO  remotemanager: Remote Manager Service handler connection timeout is: 60000
+05/10/13 17:11:21 INFO  remotemanager: Remote Manager Service connection backlog is: 5
+05/10/13 17:11:21 INFO  remotemanager: Remote Manager Service will allow a maximum of 30 connections.
+05/10/13 17:11:21 INFO  remotemanager: Remote Manager Service started plain:4555
+05/10/13 18:10:46 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+05/10/13 18:10:51 INFO  remotemanager: Login for root successful
+05/10/13 18:12:51 ERROR remotemanager: Remote Manager Connection has idled out.
+05/10/13 18:12:51 INFO  remotemanager: Logout for root.

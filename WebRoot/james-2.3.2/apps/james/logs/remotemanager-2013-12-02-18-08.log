@@ -1,0 +1,34 @@
+02/12/13 18:08:24 INFO  remotemanager: Remote Manager Service uses default thread group.
+02/12/13 18:08:24 INFO  remotemanager: Remote Manager Service is running on: ICBC
+02/12/13 18:08:24 INFO  remotemanager: Remote Manager Service handler hello name is: ICBC
+02/12/13 18:08:24 INFO  remotemanager: Remote Manager Service handler connection timeout is: 60000
+02/12/13 18:08:24 INFO  remotemanager: Remote Manager Service connection backlog is: 5
+02/12/13 18:08:24 INFO  remotemanager: Remote Manager Service will allow a maximum of 30 connections.
+02/12/13 18:08:24 INFO  remotemanager: Remote Manager Service started plain:4555
+02/12/13 18:08:27 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:09:07 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:09:12 INFO  remotemanager: Login for root successful
+02/12/13 18:10:12 ERROR remotemanager: Remote Manager Connection has idled out.
+02/12/13 18:10:12 INFO  remotemanager: Logout for root.
+02/12/13 18:10:17 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:10:31 INFO  remotemanager: Login for root successful
+02/12/13 18:12:01 INFO  remotemanager: Logout for root.
+02/12/13 18:12:12 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:17:36 ERROR remotemanager: Exception during connection from 0:0:0:0:0:0:0:1 (0:0:0:0:0:0:0:1): Read timed out
+02/12/13 18:22:25 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:25:19 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:25:29 INFO  remotemanager: Login for root successful
+02/12/13 18:28:29 ERROR remotemanager: Remote Manager Connection has idled out.
+02/12/13 18:28:29 INFO  remotemanager: Logout for root.
+02/12/13 18:28:35 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:28:40 INFO  remotemanager: Login for root successful
+02/12/13 18:29:25 INFO  remotemanager: Logout for root.
+02/12/13 18:29:39 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:30:13 INFO  remotemanager: Login for root successful
+02/12/13 18:30:26 INFO  remotemanager: User yangnaihua deleted
+02/12/13 18:31:39 INFO  remotemanager: Logout for root.
+02/12/13 18:32:15 INFO  remotemanager: Access from 0:0:0:0:0:0:0:1(0:0:0:0:0:0:0:1)
+02/12/13 18:32:20 INFO  remotemanager: Login for root successful
+02/12/13 18:32:41 INFO  remotemanager: User yangnaihua added
+02/12/13 18:35:20 ERROR remotemanager: Remote Manager Connection has idled out.
+02/12/13 18:35:20 INFO  remotemanager: Logout for root.

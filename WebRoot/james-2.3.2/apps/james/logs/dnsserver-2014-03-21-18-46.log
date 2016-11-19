@@ -1,0 +1,6 @@
+21/03/14 18:46:29 INFO  dnsserver: Autodiscovery is enabled - trying to discover your system's DNS Servers
+21/03/14 18:46:29 INFO  dnsserver: Adding autodiscovered server 100.0.0.100
+21/03/14 18:46:29 INFO  dnsserver: Adding autodiscovered server 100.0.0.101
+21/03/14 18:46:29 INFO  dnsserver: DNS Server is: 100.0.0.100
+21/03/14 18:46:29 INFO  dnsserver: DNS Server is: 100.0.0.101
+21/03/14 18:46:29 INFO  dnsserver: DNS Server is: 10.14.31.141

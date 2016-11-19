@@ -1,0 +1,107 @@
+INFO    2014-06-02 12:27:05.244 [Phoenix ] (): Logger started
+WARN    2014-06-02 12:27:05.276 [Phoenix ] (): Phoenix was not started by the daemon thus it will not be possible to restart the JVM via the Management interface.
+WARN    2014-06-02 12:27:05.353 [Phoenix.] (): Error deleting Work Directory "C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\work". (Reason: File C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\work\james-1401674363530\SAR-INF\lib\mailet-api-2.3.jar unable to be deleted.)
+java.io.IOException: File C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\work\james-1401674363530\SAR-INF\lib\mailet-api-2.3.jar unable to be deleted.
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:743)
+	at org.apache.avalon.excalibur.io.FileUtil.cleanDirectory(FileUtil.java:910)
+	at org.apache.avalon.excalibur.io.FileUtil.deleteDirectory(FileUtil.java:866)
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:735)
+	at org.apache.avalon.excalibur.io.FileUtil.cleanDirectory(FileUtil.java:910)
+	at org.apache.avalon.excalibur.io.FileUtil.deleteDirectory(FileUtil.java:866)
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:735)
+INFO    2014-06-02 12:27:05.372 [Phoenix.] (): Installing Sar located at file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar.
+WARN    2014-06-02 12:27:05.458 [Phoenix.] (): The file conf/sqlResources.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\sqlResources.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.459 [Phoenix.] (): The file conf/james-fetchmail.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\james-fetchmail.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.459 [Phoenix.] (): The file conf/james-smtphandlerchain.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\james-smtphandlerchain.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.459 [Phoenix.] (): The file conf/miResources.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\miResources.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.460 [Phoenix.] (): The file conf/james-listmanager.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\james-listmanager.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.460 [Phoenix.] (): The file conf/james-liststores.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\james-liststores.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.463 [Phoenix.] (): The file conf/samples/fetchmail/maxMessageSize.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\samples\fetchmail\maxMessageSize.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.463 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountManyUsers.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\samples\fetchmail\oneAccountManyUsers.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.464 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountManyUsersDynamic.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\samples\fetchmail\oneAccountManyUsersDynamic.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.464 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountPerUser.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\samples\fetchmail\oneAccountPerUser.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.464 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountPerUserDynamic.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\samples\fetchmail\oneAccountPerUserDynamic.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.465 [Phoenix.] (): The file conf/samples/fetchmail/remoteReceivedHeader.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\conf\samples\fetchmail\remoteReceivedHeader.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.465 [Phoenix.] (): The file SAR-INF/config.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\SAR-INF\config.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.466 [Phoenix.] (): The file SAR-INF/assembly.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\SAR-INF\assembly.xml because there is a file in the way.
+WARN    2014-06-02 12:27:05.466 [Phoenix.] (): The file SAR-INF/environment.xml can not be extracted from the Sar "file:/C:/Work/LogisticsManagementSystem/LogisticsManagementSystem3/WebRoot/james-2.3.2/apps/james.sar" into directory C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\apps\james\SAR-INF\environment.xml because there is a file in the way.
+INFO    2014-06-02 12:27:05.666 [Phoenix.] (): Verifying that all key-stores have valid names.
+INFO    2014-06-02 12:27:05.666 [Phoenix.] (): Verify that any keystore names used by grant or permission reference actual keystores
+INFO    2014-06-02 12:27:05.666 [Phoenix.] (): Verify that if target is null then actions is null.
+INFO    2014-06-02 12:27:05.830 [Phoenix.] (): Verifying that the name specified for Blocks and BlockListeners are valid.
+INFO    2014-06-02 12:27:05.831 [Phoenix.] (): Verifying that the names specified for Component are valid.
+INFO    2014-06-02 12:27:05.831 [Phoenix.] (): Verifying that the names specified for the Components are unique.
+INFO    2014-06-02 12:27:05.831 [Phoenix.] (): Verifying that the dependency mapping is valid according to ComponentInfos.
+INFO    2014-06-02 12:27:05.832 [Phoenix.] (): Verifying that the dependency mapping for every Component is valid with respect to other components.
+INFO    2014-06-02 12:27:05.832 [Phoenix.] (): Verifying that there are no circular dependencies between Components.
+INFO    2014-06-02 12:27:05.833 [Phoenix.] (): Verifying that the name specified for Blocks and BlockListeners are unique.
+INFO    2014-06-02 12:27:05.834 [Phoenix.] (): Verifying that the specified Blocks have valid types.
+INFO    2014-06-02 12:27:05.862 [Phoenix.] (): Verifying that the specified BlockListeners have valid types.
+INFO    2014-06-02 12:27:05.903 [Phoenix.] (): 20 Blocks to process for phase "startup". Order of processing = [dnsserver, database-connections, mailstore, users-store, localusersrepository, spoolrepository, sockets, thread-manager, scheduler, James, mailetpackages, matcherpackages, spoolmanager, connections, remotemanager, pop3server, smtpserver, nntp-repository, nntpserver, fetchmail].
+ERROR   2014-06-02 12:27:06.108 [Phoenix.] (): Component named "remotemanager" failed to pass through the Starting stage. (Reason: java.net.BindException: Address already in use: JVM_Bind).
+ERROR   2014-06-02 12:27:06.108 [Phoenix.] (): There was an error running phase "startup" for Block named "remotemanager". (Reason: Component named "remotemanager" failed to pass through the Starting stage. (Reason: java.net.BindException: Address already in use: JVM_Bind).).
+org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleException: Component named "remotemanager" failed to pass through the Starting stage. (Reason: java.net.BindException: Address already in use: JVM_Bind).
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.fail(LifecycleHelper.java:354)
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.startup(LifecycleHelper.java:226)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.startup(DefaultApplication.java:530)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.doRunPhase(DefaultApplication.java:478)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.runPhase(DefaultApplication.java:409)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.start(DefaultApplication.java:180)
+	at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUtil.java:260)
+rethrown from
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.avalon.cornerstone.blocks.sockets.DefaultServerSocketFactory.createServerSocket(DefaultServerSocketFactory.java:74)
+INFO    2014-06-02 12:27:06.110 [Phoenix.] (): exception while starting:Component named "remotemanager" failed to pass through the Starting stage. (Reason: java.net.BindException: Address already in use: JVM_Bind).
+
+WARN    2014-06-02 12:27:06.132 [Phoenix.] (): Failed to start application james.
+org.apache.avalon.framework.CascadingException: Failed to start application james.
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(DefaultKernel.java:313)
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplication(DefaultKernel.java:376)
+	at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(DefaultDeployer.java:357)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:542)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:535)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFiles(DefaultEmbeddor.java:520)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployDefaultApplications(DefaultEmbeddor.java:509)
+rethrown from
+org.apache.avalon.phoenix.interfaces.ApplicationException: Component named "remotemanager" failed to pass through the Starting stage. (Reason: java.net.BindException: Address already in use: JVM_Bind).
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.start(DefaultApplication.java:186)
+	at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUtil.java:260)
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(DefaultKernel.java:295)
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplication(DefaultKernel.java:376)
+	at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(DefaultDeployer.java:357)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:542)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:535)
+rethrown from
+org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleException: Component named "remotemanager" failed to pass through the Starting stage. (Reason: java.net.BindException: Address already in use: JVM_Bind).
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.fail(LifecycleHelper.java:354)
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.startup(LifecycleHelper.java:226)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.startup(DefaultApplication.java:530)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.doRunPhase(DefaultApplication.java:478)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.runPhase(DefaultApplication.java:409)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.start(DefaultApplication.java:180)
+	at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUtil.java:260)
+rethrown from
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.avalon.cornerstone.blocks.sockets.DefaultServerSocketFactory.createServerSocket(DefaultServerSocketFactory.java:74)
+WARN    2014-06-02 12:27:06.169 [Phoenix.] (): Error deleting Work Directory "C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\work\james-1401683225373". (Reason: File C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\work\james-1401683225373\SAR-INF\lib\mailet-api-2.3.jar unable to be deleted.)
+java.io.IOException: File C:\Work\LogisticsManagementSystem\LogisticsManagementSystem3\WebRoot\james-2.3.2\work\james-1401683225373\SAR-INF\lib\mailet-api-2.3.jar unable to be deleted.
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:743)
+	at org.apache.avalon.excalibur.io.FileUtil.cleanDirectory(FileUtil.java:910)
+	at org.apache.avalon.excalibur.io.FileUtil.deleteDirectory(FileUtil.java:866)
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:735)
+	at org.apache.avalon.excalibur.io.FileUtil.cleanDirectory(FileUtil.java:910)
+	at org.apache.avalon.excalibur.io.FileUtil.deleteDirectory(FileUtil.java:866)
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:735)
+WARN    2014-06-02 12:27:06.241 [Phoenix.] (): Failed to stop application james as it is not initialized/started.

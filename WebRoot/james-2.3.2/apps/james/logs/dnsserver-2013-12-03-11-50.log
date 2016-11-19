@@ -1,0 +1,12 @@
+03/12/13 11:50:09 INFO  dnsserver: Autodiscovery is enabled - trying to discover your system's DNS Servers
+03/12/13 11:50:09 INFO  dnsserver: Adding autodiscovered server 100.0.0.100
+03/12/13 11:50:09 INFO  dnsserver: Adding autodiscovered server 100.0.0.101
+03/12/13 11:50:09 INFO  dnsserver: Adding autodiscovered server 118.113.89.2
+03/12/13 11:50:09 INFO  dnsserver: Adding autodiscovered server 118.113.89.3
+03/12/13 11:50:09 INFO  dnsserver: Adding autodiscovered server 202.98.96.68
+03/12/13 11:50:09 INFO  dnsserver: DNS Server is: 100.0.0.100
+03/12/13 11:50:09 INFO  dnsserver: DNS Server is: 100.0.0.101
+03/12/13 11:50:09 INFO  dnsserver: DNS Server is: 118.113.89.2
+03/12/13 11:50:09 INFO  dnsserver: DNS Server is: 118.113.89.3
+03/12/13 11:50:09 INFO  dnsserver: DNS Server is: 202.98.96.68
+03/12/13 11:50:09 INFO  dnsserver: DNS Server is: 10.14.31.141

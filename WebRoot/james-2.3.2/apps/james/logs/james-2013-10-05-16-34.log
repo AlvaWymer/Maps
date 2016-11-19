@@ -1,0 +1,9 @@
+05/10/13 16:34:51 INFO  James: JAMES init...
+05/10/13 16:34:51 INFO  James: Local host is: ICBC
+05/10/13 16:34:51 INFO  James: Handling mail for: icbc
+05/10/13 16:34:51 INFO  James: Handling mail for: 0:0:0:0:0:0:0:1
+05/10/13 16:34:51 INFO  James: Handling mail for: 127.0.0.1
+05/10/13 16:34:51 INFO  James: Handling mail for: localhost
+05/10/13 16:34:51 INFO  James: Local users repository opened
+05/10/13 16:34:51 INFO  James: Private Repository LocalInbox opened
+05/10/13 16:34:51 INFO  James: JAMES ...init end

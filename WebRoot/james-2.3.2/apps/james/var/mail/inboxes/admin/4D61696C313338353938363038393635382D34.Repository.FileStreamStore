@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: admin@yangnaihua.cn
+Date: Mon, 2 Dec 2013 20:08:09 +0800 (CST)
+From: postmaster@localhost
+To: admin@yangnaihua.cn
+Message-ID: <1495648676.9.1385986089643.JavaMail.kitty@ICBC>
+In-Reply-To: <541038551.1385986064040.JavaMail.kitty@ICBC>
+Subject: =?GBK?B?UmU6sbG+qcSnwNa/xry8yO28/tGn1Lo=?=
+MIME-Version: 1.0
+Content-Type: multipart/report; 
+	boundary="----=_Part_8_1071083690.1385986089627"; 
+	report-type=delivery-status
+
+------=_Part_8_1071083690.1385986089627
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi. This is the James mail server at ICBC.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.  Below
+I include the list of recipients and the reason why I was unable to deliver
+your message.
+
+Failed recipient(s):
+1036975570@qq.com
+
+Error message:
+550 Mail content denied. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000726
+
+
+------=_Part_8_1071083690.1385986089627
+Content-Type: message/delivery-status; name=status.dat
+Content-Transfer-Encoding: 7bit
+Content-Description: Delivery Status Notification
+Content-Disposition: attachment; filename=status.dat
+
+Reporting-MTA: dns; ICBC
+Received-From-MTA: dns; www.bandicam.com
+
+Final-Recipient: rfc822; 1036975570@qq.com
+Action: failed
+Status: 5.0.0
+Diagnostic-Code: smtp; 550 Mail content denied. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000726
+Last-Attempt-Date: Mon, 2 Dec 2013 20:07:44 +0800 (CST)
+
+------=_Part_8_1071083690.1385986089627
+Content-Type: message/rfc822; name="¬TPÑ€oöfb"
+Content-Disposition: Attachment; filename="¬TPÑ€oöfb"
+
+Received: from www.bandicam.com ([127.0.0.1])
+          by ICBC (JAMES SMTP Server 2.3.2) with SMTP ID 245
+          for <1036975570@qq.com>;
+          Mon, 2 Dec 2013 20:07:44 +0800 (CST)
+Message-ID: <541038551.1385986064040.JavaMail.kitty@ICBC>
+Date: Mon, 2 Dec 2013 20:07:43 +0800 (CST)
+From: admin@yangnaihua.cn
+To: 1036975570@qq.com
+Subject: =?UTF-8?B?5YyX5Lqs6a2U5LmQ56eR5oqA6L2v5Lu25a2m6Zmi?=
+Mime-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_0_328900066.1385986063986"
+
+------=_Part_0_328900066.1385986063986
+Content-Type: text/plain; name=debug.txt; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=debug.txt
+
+start ... 
+00010001
+get succeed ..
+
+------=_Part_0_328900066.1385986063986
+Content-Type: text/html;charset=GBK
+Content-Transfer-Encoding: quoted-printable
+
+<h1><a href=3D"www.mldnjava.cn">www.mldnjava.cn</a>=B1=B1=BE=A9=C4=A7=C0=D6=
+=BF=C6=BC=BC=C8=ED=BC=FE=D1=A7=D4=BA</h55231>
+------=_Part_0_328900066.1385986063986--
+
+
+------=_Part_8_1071083690.1385986089627--
