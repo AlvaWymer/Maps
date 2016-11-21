@@ -32,7 +32,8 @@ public class LoginAction extends ActionSupport implements ServletRequestAware{
 	private HRoleDao hRoleDao=new HRoleDao();
 	
 
-	HttpServletRequest request;		//获取request
+	HttpServletRequest request;		//获取requesthah
+
 	
 	@Override
 	public String execute() throws Exception {
